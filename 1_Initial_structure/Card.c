@@ -59,6 +59,12 @@ void Card_print(const Card* c)
     printf("%s", buf);
 }
 
+    /* for test */
+void printCard(const Card* c)
+{
+    Card_print(c);
+}
+
 int Card_matches(const Card* a, const Card* b) 
 {
     if (a == NULL || b == NULL) {
@@ -100,4 +106,5 @@ int Card_compare(const Card* a, const Card* b)
     }
     return 0;
 }
+
 
