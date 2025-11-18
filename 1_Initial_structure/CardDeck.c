@@ -1,6 +1,8 @@
 /**
  * @file CardDeck.c
  * @brief Implementation of CardDeck data type operations
+ * @author 'ADD YOUR NAME HERE'
+ *
  * @date ADD YOUR COMPLETION DATA HERE
  * 
  * Group_1_Assignment_2
@@ -16,3 +18,4 @@
 
 #include "CardDeck.h"
 #include "Card.h"
+
