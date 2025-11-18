@@ -1,6 +1,8 @@
 /**
  * @file Game.c
  * @brief 
+ * @author 'ADD YOUR NAME HERE'
+ *
  * @date ADD YOUR COMPLETION DATA HERE
  *
  * Group_1_Assignment_2
@@ -35,3 +37,4 @@ void Game_cleanup(void)
 {
 
 }
+
