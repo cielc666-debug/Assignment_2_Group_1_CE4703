@@ -70,6 +70,8 @@ void Card_toString(const Card* c, char* buf, size_t buf_size);
  * @param c Pointer to the card (must not be NULL)
  */
 void Card_print(const Card* c);
+/* for test */
+void printCard(const Card* c);
 
 /**
  * @brief Check if two cards match (same suit or same rank)
@@ -96,5 +98,6 @@ int Card_equal(const Card* a, const Card* b);
 int Card_compare(const Card* a, const Card* b);
 
 #endif
+
 
 
