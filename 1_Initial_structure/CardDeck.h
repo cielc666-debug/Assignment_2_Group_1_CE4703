@@ -1,6 +1,8 @@
 /**
  * @file CardDeck.h
  * @brief Header file for CardDeck data type
+ * @author 'ADD YOUR NAME HERE'
+ *
  * @date ADD YOUR COMPLETION DATA HERE
  *
  * Group_1_Assignment_2
@@ -8,11 +10,12 @@
  * This file defines the CardDeck data type, which represents a dynamic
  * collection of cards. The CardDeck uses dynamic memory allocation to
  * support any number of cards from 0 to multiple complete packs
+ * If can not use dynamic array, use linked list 
  *
  * The CardDeck data structure consists of:
- * 1.A dynamically allocated array of Card structures
- * 2.An integer tracking the current number of cards
- * 3.An integer tracking the capacity of the allocated array
+ * 1.
+ * 2.
+ * 3.
  *
  * Operations supported include:
  * 1.Adding and removing cards
@@ -35,3 +38,4 @@
 #include "Card.h"
 
 #endif
+
