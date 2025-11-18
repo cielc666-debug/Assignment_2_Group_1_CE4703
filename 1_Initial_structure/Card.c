@@ -1,6 +1,8 @@
 /**
  * @file Card.c
  * @brief Implementation of Card data type operations
+ * @author Xinyue Chang
+ *
  * @date 17/11/2025
  *
  * Group_1_Assignment_2
@@ -98,3 +100,4 @@ int Card_compare(const Card* a, const Card* b)
     }
     return 0;
 }
+
