@@ -1,6 +1,8 @@
 /**
  * @file Card.h
  * @brief Header file for Card data type
+ * @author Xinyue Chang
+ *
  * @date 17/11/2025
  *
  * Group_1_Assignment_2
@@ -94,4 +96,5 @@ int Card_equal(const Card* a, const Card* b);
 int Card_compare(const Card* a, const Card* b);
 
 #endif
+
 
