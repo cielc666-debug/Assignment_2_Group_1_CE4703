@@ -31,10 +31,42 @@
  * when writing Card_compare() or sorting
  */
 
-
-
+#ifndef DECK_H
+#define DECK_H
 
 #include "Card.h"
-CZCZCZ
+#include <stddef.h>
 
+typedef struct {
+    Card* cards;        /* Pointer to dynamic array of cards */
+    int size;           /* Current number of cards in the deck */
+    int capacity;       /* Maximum capacity of the deck */
+} Deck;
 
+Deck* createDeck(int capacity);
+
+int getDeckSize(const Deck* deck);
+
+void destroyDeck(Deck** deck);
+
+int addCardTop(Deck* deck, Card card);
+
+int addCardRandom(Deck* deck, Card card);
+
+int removeCardTop(Deck* deck, Card* card);
+
+int removeCardRandom(Deck* deck, Card* card);
+
+const Card* peekTop(const Deck* deck);
+
+int transferAll(Deck* dest, Deck* src);
+
+int findAndRemove(Deck* deck, const Card* target);
+
+void shuffleDeck(Deck* deck);
+
+void sortDeck(Deck* deck);
+
+void printDeck(const Deck* deck);
+
+#endif /* DECK_H */
