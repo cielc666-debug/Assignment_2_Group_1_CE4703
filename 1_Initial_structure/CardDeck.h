@@ -32,10 +32,9 @@
  */
 
 
-#ifndef CARDDECK_H
-#define CARDDECK_H
+
 
 #include "Card.h"
+CZCZCZ
 
-#endif
 
